@@ -1,27 +1,26 @@
 <html>
 <head>
-  <title>{% block title %}Minus-Midterm{% endblock %}</title>
+  <title>{% block title %}March Madness Arcade{% endblock %}</title>
+  
 </head>
-<body><id="site">Assignment {% block sitenumber%}{% endblock %}</>
+<body><id="site">About{% block sitenumber%}{% endblock %}</>
 
 <p id="status">Status</p>
 
-{% block status %}
-{% endblock %}
+ <div id="header">
 
-<p id="plan">Plan<p>
+		{% block status %}
+		{% endblock %}
+</div>
+		<p id="plan">Plan<p>
 
-{% block plan %}
-{% endblock %}
+		{% block plan %}
+		{% endblock %}
 
-<p id="expected-completion-date">Expected Completion Date</p>
+		<p id="expected-completion-date">Expected Completion Date</p>
 
-{% block date %}
-{% endblock %}
-
-<li><a href='/site04'>Site 1 - OCCS Department</a></li>
-<li><a href='/site02'>Site 2 - Flask Login</a></li>
-<li><a href='/site03'>Site 3 - Simple Arcade Site</a></li>
+		{% block date %}
+		{% endblock %}
 
 </body>
 </html>
