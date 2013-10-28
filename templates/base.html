@@ -4,24 +4,47 @@
 	<link rel="stylesheet"  type="text/css" href="static/style.css"/>
 </head>
 <body>
-	<div id="site">{% block sitenumber %}{% endblock %}</div>
 
-<div id="leftcolumn">
+	<!-- Begin Wrapper -->
+	<div id="wrapper">
+		
+		<!-- Begin Header -->
+		<div id="header">
+			{% block header %}
+			{% endblock %}
+		</div>
+		<!-- End Header -->
 
-{% block Info %}
-{% endblock %}
+		<!-- Begin LeftColumn -->
+		<div id="leftcolumn">
+			{% block leftcolumn %}
+			{% endblock %}
+		</div>
+		<!-- End LeftColumn -->
 
-</div>
+		<!-- Begin Content -->
+		<div id="content">
+			{% block content %}
+			{% endblock %}
+		</div>
+		<!-- End Content -->
 
-{% block Setup %}
-{% endblock %}
+		<!-- Begin RightColumn -->
+		<div id="rightcolumn">
+			{% block rightcolumn %}
+			{% endblock %}
+		</div>
+		<!-- End RightColumn -->
 
-<p id="expected-completion-date">Links</p>
+		<!-- Begin Footer -->
+		<div id="footer">
+			{% block footer %}
+			{% endblock %}
+		</div>
+		<!-- End Footer -->
 
-{% block date %}
-{% endblock %}
-
-<li><a href='/site02'>Site 2 - Flask Login</a></li>
+	<!-- End Wrapper -->
+	</div>
 
 </body>
 </html>

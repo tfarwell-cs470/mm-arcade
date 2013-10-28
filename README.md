@@ -1,3 +1,3 @@
 March Madness Arcade
 
-http://mm-arcade.herokuapp.com/site02
+http://mm-arcade.herokuapp.com

@@ -59,5 +59,13 @@ body {
  height: 350px;
  width: 195px;
  float: left;
- position: relative;
+}
+#footer { 
+ width: 900px;
+ clear: both;
+ color: #333;
+ border: 1px solid #ccc;
+ background: #BD9C8C;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
 }
