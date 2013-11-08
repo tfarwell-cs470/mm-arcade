@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}March Madness Arcade{% endblock %}
+
+{% block sitenumber %}Info{% endblock %}
+
+{% block header %}
+  
+{% endblock %}
+
+{% block leftcolumn %}
+	<a href='/site01'>Home</a>
+	<a href='/site02'>Info</a>
+	<a href='/site03'>Login</a>
+	<a href='/site04'>Pool</a>
+	<a href='/site05'>Arcade</a>
+{% endblock %}
+
+{% block content %}
+   
+{% endblock %}
+
+{% block rightcolumn %}
+    
+{% endblock %}
+
+{% block footer %}
+    
+{% endblock %}
